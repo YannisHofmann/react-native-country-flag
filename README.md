@@ -1,4 +1,4 @@
-# react-native-country-flags
+# react-native-country-flag
 
 This is a React-Native package to display every 254 Country flags with the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) Standard!
 
@@ -7,7 +7,7 @@ This is a React-Native package to display every 254 Country flags with the [ISO 
 ## Install
 
 ```bash
-npm install --save react-native-country-flags
+npm install --save react-native-country-flag
 ```
 
 ## Usage
