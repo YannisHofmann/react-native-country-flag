@@ -17,7 +17,7 @@ This is an simple example how you can use the `CountryFlag` component.
 ```jsx
 import CountryFlag from "react-native-country-flag";
 
-<CountryFlag isoCode="de" size={25} />;
+<CountryFlag isoCode="de" size={25} />
 ```
 
 You can only use the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for the isoCode property.
