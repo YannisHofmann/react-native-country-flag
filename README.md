@@ -12,7 +12,7 @@ npm install --save react-native-country-flag
 
 ## Usage
 
-This is an simple example how you can use the `CountryFlag` component.
+This is a simple example how you can use the `CountryFlag` component.
 
 ```jsx
 import CountryFlag from "react-native-country-flag";
@@ -26,9 +26,9 @@ You can only use the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki
 
 | Prop    |       Type        |                                                    Desciption                                                    |
 | ------- | :---------------: | :--------------------------------------------------------------------------------------------------------------: |
-| isoCode |      String       | Define the Country flag with the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| size    |      Integer      |                                       Define the size of the Country flag                                        |
-| style   | Stylesheet/Object |                               Customize the style from the `CountryFlag` Component                               |
+| isoCode |      String       | Define the country flag with the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| size    |      Integer      |                                       Define the size of the country flag                                        |
+| style   | Stylesheet/Object |                               Customize the style from the `CountryFlag` component                               |
 
 ## License
 
