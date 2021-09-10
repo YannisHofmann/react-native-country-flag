@@ -1,9 +1,15 @@
 import React from "react";
 import { Image } from "react-native";
-import PropTypes from "prop-types";
-import * as flag from "./../flags/flagsIndex";
+import * as flag from "./flags/flagsIndex";
 
-const CountryFlag = ({ isoCode, size, style }) => {
+interface Props {
+  isoCode: string;
+  size: number;
+  style?: any;
+}
+
+const CountryFlag = ({ isoCode, size, style }: Props) => {
+  // This switch case is just there because you can't name variables "in" and "do"
   switch (isoCode.toLowerCase()) {
     case "in":
       return (
@@ -13,7 +19,6 @@ const CountryFlag = ({ isoCode, size, style }) => {
         />
       );
       break;
-
     case "do":
       return (
         <Image
@@ -22,26 +27,15 @@ const CountryFlag = ({ isoCode, size, style }) => {
         />
       );
       break;
-
     default:
       return (
         <Image
-          source={flag[isoCode.toLowerCase()]}
+          source={(flag as any)[isoCode]}
           style={[{ width: size * 1.6, height: size }, style]}
         />
       );
       break;
   }
-};
-
-CountryFlag.propTypes = {
-  isoCode: PropTypes.string.isRequired,
-  size: PropTypes.number,
-};
-
-CountryFlag.defaultProps = {
-  isoCode: "de",
-  size: 25,
 };
 
 export default CountryFlag;
