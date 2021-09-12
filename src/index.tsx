@@ -6,10 +6,9 @@ interface Props {
   isoCode: string;
   size: number;
   style?: any;
-  onError?: any;
 }
 
-const Flag = ({ isoCode, size, style, onError }: Props) => {
+const CountryFlag = ({ isoCode, size, style }: Props) => {
   // This switch case is just there because you can't name variables "in" and "do"
   switch (isoCode.toLowerCase()) {
     case "in":
@@ -31,7 +30,7 @@ const Flag = ({ isoCode, size, style, onError }: Props) => {
     default:
       return (
         <Image
-          source={(flag as any)[isoCode] ? (flag as any)[isoCode] : onError()}
+          source={(flag as any)[isoCode]}
           style={[{ width: size * 1.6, height: size }, style]}
         />
       );
@@ -39,4 +38,4 @@ const Flag = ({ isoCode, size, style, onError }: Props) => {
   }
 };
 
-export default Flag;
+export default CountryFlag;
