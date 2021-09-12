@@ -26,9 +26,10 @@ You can only use the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki
 
 | Prop    |       Type        |                                                    Desciption                                                    |
 | ------- | :---------------: | :--------------------------------------------------------------------------------------------------------------: |
-| isoCode |      String       | Define the country flag with the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| size    |      Integer      |                                       Define the size of the country flag                                        |
-| style   | Stylesheet/Object |                               Customize the style from the `CountryFlag` component                               |
+| isoCode |      String       | Define the country flag with the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). |
+| size    |      Integer      |                                       Define the size from the country flag.                                        |
+| onError | Callback function | This function will be called when the isoCode is invalid or the `CountryFlag` component could not load the flag. |
+| style   |    Stylesheet     |                               Customize the style from the `CountryFlag` component.                               |                               |
 
 ## License
 
