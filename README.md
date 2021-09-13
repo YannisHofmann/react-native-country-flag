@@ -27,8 +27,8 @@ You can only use the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki
 | Prop    |       Type        |                                                    Desciption                                                    |
 | ------- | :---------------: | :--------------------------------------------------------------------------------------------------------------: |
 | isoCode |      String       | Define the country flag with the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). |
-| size    |      Integer      |                                       Define the size from the country flag.                                        |
-| style   |    Stylesheet     |                               Customize the style from the `CountryFlag` component.                               |                               |
+| size    |      Integer      |Define the size from the country flag.                                            |
+| style   |    Stylesheet     |Customize the style from the `CountryFlag` component.                             |                              
 
 ## License
 
