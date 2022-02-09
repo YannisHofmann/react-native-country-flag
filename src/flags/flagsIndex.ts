@@ -67,6 +67,7 @@ export const eh = require("./eh.png");
 export const er = require("./er.png");
 export const es = require("./es.png");
 export const et = require("./et.png");
+export const eu = require("./eu.png");
 export const fi = require("./fi.png");
 export const fj = require("./fj.png");
 export const fk = require("./fk.png");
