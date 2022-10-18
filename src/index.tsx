@@ -27,7 +27,7 @@ const CountryFlag = ({ isoCode, size, style }: Props) => {
     case "gb-wls":
       const suffix = capitalizeFirstLetter(isoCode.toLowerCase().split('-')[1]);
       const key = `gb${suffix}`;
-      return <Image source={flag[key]} style={[{ width: size * 1.6, height: size }, style]} />;
+      return <Image source={(flag as any)[key]} style={[{ width: size * 1.6, height: size }, style]} />;
       break;
     default:
       return (
