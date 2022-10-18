@@ -17,23 +17,22 @@ const CountryFlag = ({ isoCode, size, style }: Props) => {
   switch (isoCode.toLowerCase()) {
     case "in":
       return <Image source={flag["ind"]} style={[{ width: size * 1.6, height: size }, style]} />;
-      break;
+
     case "do":
       return <Image source={flag["dom"]} style={[{ width: size * 1.6, height: size }, style]} />;
-      break;
+
     case "gb-eng":
     case "gb-nir":
     case "gb-sct":
     case "gb-wls":
-      const suffix = capitalizeFirstLetter(isoCode.toLowerCase().split('-')[1]);
+      const suffix = capitalizeFirstLetter(isoCode.toLowerCase().split("-")[1]);
       const key = `gb${suffix}`;
       return <Image source={(flag as any)[key]} style={[{ width: size * 1.6, height: size }, style]} />;
-      break;
+
     default:
       return (
         <Image source={(flag as any)[isoCode.toLowerCase()]} style={[{ width: size * 1.6, height: size }, style]} />
       );
-      break;
   }
 };
 
