@@ -15,14 +15,17 @@ This is a react-native package to display every 254 country flag with the [ISO 3
 - [🚩 Flag component (props)](<#-Flag-component-(props)>)
 - [📝 License](<#-Flag-component-(props)>)
 
-$~$
+
+&nbsp;
+
 
 ## ⬇️ Install package
 
 ```bash
 npm install --save react-native-country-flag
 ```
-$~$
+
+&nbsp;
 
 ## 💾 Data
 
@@ -39,7 +42,7 @@ import CountryFlag from "react-native-country-flag";
 <CountryFlag isoCode="de" size={25} />
 ```
 
-$~$
+
 
 ### Usage with flags directly Bundled into your codebase
 
@@ -59,7 +62,8 @@ import flags from "react-native-country-flag/data";
 <CountryFlag isoCode="de" size={25} flags={flags} />
 ```
 
-$~$
+
+&nbsp;
 
 ## 🚩 Flag component (props)
 
@@ -78,7 +82,8 @@ You can only use the [ISO 3166-1 alpha-2 Standard](https://en.wikipedia.org/wiki
 | style   | Stylesheet |                               Customize the style from the `CountryFlag` component.                               |
 | flags   |            |                              Optional: pass bundeled flags `CountryFlag` component.                               |
 
-$~$
+
+&nbsp;
 
 ## 📝 License
 
