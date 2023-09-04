@@ -2,7 +2,7 @@
 
 This is a react-native package to display every 254 country flag with the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) Standard!
 
-![preview image](https://github.com/YannisHofmann/react-native-country-flag/tree/main/assets/preview_cover.png?raw=true)
+![preview image](https://raw.githubusercontent.com/YannisHofmann/react-native-country-flag/main/assets/preview_cover.png)
 
 [![NPM](https://img.shields.io/npm/v/react-native-country-flag.svg)](https://www.npmjs.com/package/react-native-country-flag)
 [![Npm package total downloads](https://badgen.net/npm/dt/react-native-country-flag)](https://npmjs.com/package/react-native-country-flag)
