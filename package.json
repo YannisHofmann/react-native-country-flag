@@ -1,6 +1,6 @@
 {
   "name": "react-native-country-flag",
-  "version": "1.1.6",
+  "version": "1.2.1",
   "description": "This is a React-Native package to display every 254 Country flags with the ISO 3166-1 alpha-2 Standard!",
   "main": "./dist/cjs/index.js",
   "module": "./dist/index.js",
@@ -21,7 +21,7 @@
     "icon"
   ],
   "author": "Yannis Hofmann",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/YannisHofmann/react-native-country-flag.git",
   "devDependencies": {
     "@types/react": "^17.0.20",
