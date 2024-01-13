@@ -17,6 +17,7 @@ const CountryFlag = ({ isoCode, size, style, flags }: CountryFlagProps) => {
     <Image
       source={{ uri: FLAG_CDN_URL + isoCode.toLocaleLowerCase() + FORMAT }}
       style={[{ width: size * 1.6, height: size }, style]}
+      resizeMode="contain"
     />
   );
 
